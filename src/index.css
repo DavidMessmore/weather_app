@@ -6,4 +6,10 @@
   body {
     @apply font-mono transition duration-300;
   }
+  .dark {
+    @apply bg-stone-800 text-white;
+  }
+  .light {
+    @apply bg-stone-200 text-stone-800;
+  }
 }
